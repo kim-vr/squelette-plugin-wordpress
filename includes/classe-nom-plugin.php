@@ -40,7 +40,7 @@ class Nom_Plugin {
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/classe-nom-plugin-loader.php';
 
 		// Classe responsable de la fonctionnalité d'internationnalisation
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-plugin-name-i18n.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/classe-plugin-name-i18n.php';
 
 		// Classe reponsable de la définition des actions de la partie admin
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/classe-nom-plugin-admin.php';
